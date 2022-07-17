@@ -10,3 +10,5 @@ with Image.open("shirtificate.png") as shirt:
     pdf.image(shirt, x = 0, y = 50)
     pdf.text(100,100,txt = input("What is your name"))
     pdf.output("myshirt.pdf")
+
+print("Hello world")
